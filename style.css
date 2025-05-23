@@ -1,1 +1,60 @@
+/* Define a fonte geral da página, a cor de fundo e o espaçamento interno */
+body {
+    font-family: Arial, sans-serif;
+    /* Tipo de fonte */
+    background-color: #f0f8ff;
+    /* Cor de fundo azul claro */
+    padding: 20px;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Centraliza o conteúdo do corpo */
+}
 
+/* Estiliza o título principal */
+h1 {
+    color: #cc0000;
+    /* Cor vermelha */
+}
+
+/* Estiliza o parágrafo */
+p {
+    font-size: 18px;
+    /* Tamanho da fonte */
+    color: #333;
+    /* Cor do texto (cinza escuro) */
+    max-width: 600px;
+    /* Largura máxima do parágrafo */
+    margin: 0 auto;
+    /* Centraliza horizontalmente */
+}
+
+/* Estiliza a lista */
+ul {
+    list-style-type: square;
+    /* Tipo de marcador da lista */
+    text-align: left;
+    /* Alinha à esquerda */
+    display: inline-block;
+    /* Permite que a lista seja centralizada dentro do body */
+    color: #444;
+    /* Cor do texto */
+    font-size: 16px;
+    /* Tamanho da fonte */
+}
+
+/* Estiliza a imagem */
+img {
+    margin-top: 20px;
+    /* Espaço acima da imagem */
+    width: 300px;
+    /* Largura fixa da imagem */
+    border: 4px solid #cc0000;
+    /* Borda vermelha de 4px */
+    border-radius: 10px;
+    /* Cantos arredondados na imagem */
+    display: block;
+    /* Garante que a imagem seja tratada como bloco */
+    margin-left: auto;
+    /* Centraliza horizontalmente */
+    margin-right: auto;
+}
